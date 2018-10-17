@@ -35,6 +35,8 @@ def get_filters():
     print()
 
     ###################################################################### | Get user input for month | ######################################################################
+    ## Month will be entered as str, then converted to number to filter the data ##
+    ## Frist letter of month input will be capitalized to comform with the checking list ##
 
     while True:
         month = input("\nPlease enter a month - January, February, March, April, May, June - or all: ").title()
