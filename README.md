@@ -20,3 +20,7 @@ in competing this project.
 ### Additional Thoughts
 Python may not be the best program to run this analysis, R would provide a better interective experience to the users inside
 R studio.
+
+### Other Project Features 
+This project provides very simple descriptive statistics to the users such as total number of categories, most frequent month, etc
+More in-dept analyses could be built within this framework such as regression analysis between day / time and bike usage.
