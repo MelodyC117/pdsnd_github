@@ -16,3 +16,7 @@ washington.csv
 ### Credits
 Special thanks to Stack Overflow which offered interesting solutions to many of the coding challenges that I have encountered
 in competing this project.
+
+### Additional Thoughts
+Python may not be the best program to run this analysis, R would provide a better interective experience to the users inside
+R studio.
