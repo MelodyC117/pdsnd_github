@@ -28,6 +28,8 @@ def get_filters():
             ans_c = input('\nYou entered {}. Are you sure you are interested in {}?\nPlease enter YES to continue: '.format(city,city)).upper()
             if ans_c == 'YES':
                 print("\nThank You! The city you selected is ••••••••••••••••••••••••• [ {} ] •••••••••••••••••••••••••".format(city))
+                if city == "Washington":
+                    print("\nPlease notice you have selected Washington, this city does not include data for Gender or Birth Year")
                 break
             else:
                 continue
@@ -240,7 +242,7 @@ def user_stats(df):
 def show_all(df):
     while True:
         i = 1
-        show_more = input("\nWould you like to see the first 5 rows of all data? Enter YES to continue: ").upper()
+        show_more = input("\nWould you like to see the next 5 rows of all data? Enter YES to continue: ").upper()
         if show_more == 'YES':
             print("\n•••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••\n")
             print(df[i:i+5])
