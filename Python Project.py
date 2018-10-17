@@ -18,6 +18,7 @@ def get_filters():
     print('\nHello! Let\'s explore some US bikeshare data!')
 
     #################################################################### | Get user input for city name | ####################################################################
+    ## First letter of user input will be capitalized, rest lowercase to ensure the program run successfully ##
 
     while True:
         city = input("\nPlease enter a city - Chicago, New York City, or Washington: ").title()
@@ -61,6 +62,7 @@ def get_filters():
     print()
 
     ###################################################################### | Get user input for day | ######################################################################
+    ## First letter of user input will be capitalized, rest lowercase to ensure the program run successfully ##
 
     while True:
         day = input("\nPlease enter a day of week - Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday - or all: ").title()
