@@ -1,15 +1,18 @@
 ### Date created
-Include the date you created this project and README file.
+October 17th, 2018
 
 ### Project Title
-Replace the Project Title
+Bikeshare Python Project
 
 ### Description
-Describe what your project is about and what it does
+The project provides an interactive interface for user to filter through bikeshare data in three major cities: Chicago, 
+New York City, and Washington to assist in the analysis of their interested topics.
 
 ### Files used
-Include the files used
+chicago.csv
+new-york-city.csv
+washington.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+Special thanks to Stack Overflow which offered interesting solutions to many of the coding challenges that I have encountered
+in competing this project.
