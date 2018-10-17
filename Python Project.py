@@ -238,7 +238,7 @@ def user_stats(df):
 def show_all(df):
     while True:
         i = 1
-        show_more = input("\nWould you like to see the first 5 rows of all data? Enter YES to continue: ").upper()
+        show_more = input("\nWould you like to see the next 5 rows of all data? Enter YES to continue: ").upper()
         if show_more == 'YES':
             print("\n•••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••\n")
             print(df[i:i+5])
