@@ -27,6 +27,8 @@ def get_filters():
             ans_c = input('\nYou entered {}. Are you sure you are interested in {}?\nPlease enter YES to continue: '.format(city,city)).upper()
             if ans_c == 'YES':
                 print("\nThank You! The city you selected is ••••••••••••••••••••••••• [ {} ] •••••••••••••••••••••••••".format(city))
+                if city == "Washington":
+                    print("\nPlease notice you have selected Washington, this city does not include data for Gender or Birth Year")
                 break
             else:
                 continue
